@@ -1,0 +1,50 @@
+.table {
+    padding: 20px;
+    margin: 20px ;
+    width: 100%; /* Таблиця займає всю ширину */
+    margin: 0 auto; /* Центруємо таблицю */
+    border-collapse: collapse; /* Забезпечуємо злиття границь */
+    border: 1px solid #8d8b8b;
+  }
+  
+  /* Стиль для заголовка таблиці */
+  .tableHead {
+    background-color: #131212; /* Колір фону для заголовка */
+    border: 2px solid #ddd;
+  }
+  
+  /* Стиль для рядків заголовка */
+  .tableTr {
+   /* border-bottom: 2px solid #ddd; /* Граница для рядків */
+   
+  }
+  
+  /* Стиль для заголовків колонок */
+  .tableTitle {
+    padding: 10px; /* Відступи для заголовків колонок */
+    text-align: left; /* Вирівнювання тексту по лівому краю */
+    font-weight: bold; /* Жирний шрифт для заголовків */
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #ddd;
+  }
+  
+  /* Стиль для тіла таблиці */
+  .tableBody {
+    background-color: #fff; /* Білий фон для тіла таблиці */
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Стиль для рядків таблиці */
+  .tableBody tr:nth-child(even) {
+    text-align: center;
+    background-color: #f9f9f9; /* Фон для кожного парного рядка */
+  }
+  
+  /* Стиль для тексту в комірках */
+  .tableText {
+    padding: 10px; /* Відступи для комірок */
+    border: 1px solid #ddd; /* Границя знизу для комірок */
+    text-align: center; /* Вирівнювання тексту по центру */
+  }

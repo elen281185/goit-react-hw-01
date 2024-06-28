@@ -1,0 +1,16 @@
+.friendFoto{
+width: 60px;
+
+}
+.friendName{
+font-size: 25px;
+}
+.friendOnline{
+    font-size: 20px;
+}
+.onLine{
+    color: green;
+}
+.ofLine{
+    color: red;
+}

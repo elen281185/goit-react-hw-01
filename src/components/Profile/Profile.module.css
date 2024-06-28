@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}  
+  
+  .profile {
+    width: 500px;
+    background-color: white;
+    border: 4px solid rgb(77, 77, 83);
+    border-radius: 25px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileInfo {
+    margin-bottom: 20px;
+  }
+  
+  .profileImg {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profilename {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .profileText {
+    font-size: 30px;
+    color: gray;
+  }
+  
+  .profileList {
+    display: flex; /* Використовуємо Flexbox для горизонтального розміщення */
+    justify-content: space-around; /* Розміщуємо елементи з рівними проміжками */
+    padding: 0;
+    list-style: none;
+    width: 500px; /* Забезпечуємо, щоб список займав всю ширину контейнера */
+    margin: 0; /* Відміняємо зовнішні відступи */
+    background-color: #c0bcbc;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+  }
+  
+  .profileItem {
+    width: 100%;
+    flex: 1; /* Встановлюємо однакову ширину для всіх елементів */
+    text-align: center; /* Центруємо текст всередині елемента */
+    border: 1px solid rgb(77, 77, 83); /* Додаємо границі для візуального розділення */
+   
+    padding: 10px;
+    box-sizing: border-box; /* Забезпечуємо правильний розрахунок ширини */
+  }
+  
+  .profileItemTitle {
+    font-size: 30px;
+    display: block;
+    
+  }
+  
+  .profileItemText {
+    font-size: 36px;
+    display: block;
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+  }
+  
